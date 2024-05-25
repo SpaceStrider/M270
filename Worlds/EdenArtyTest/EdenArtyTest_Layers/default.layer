@@ -1,0 +1,123 @@
+$grp GenericEntity : "{01A11A10B9BE03EE}Prefabs/Weapons/Warheads/Warhead_M26_Cluster.et" {
+ {
+  coords 8692.094 112.457 2950.935
+ }
+ {
+  coords 8683.173 113.564 2949.356
+ }
+ {
+  coords 8682.7 113.777 2943.879
+ }
+ {
+  coords 5599.595 210.891 7101.191
+ }
+ {
+  coords 4776.903 27.854 11068.391
+ }
+ {
+  coords 4715.05 21.922 9708.475
+ }
+}
+$grp GenericEntity : "{15873F899F4C16B3}Prefabs/Weapons/Magazines/Pod_M26_MLRS_12rnd_Base.et" {
+ {
+  coords 8695.434 111.958 2932.776
+ }
+ {
+  coords 4767.263 27.854 11071.125
+ }
+}
+Projectile : "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" {
+ coords 5601.675 211.186 7102.171
+}
+$grp Projectile : "{1A867B34E5C2846B}Prefabs/Weapons/Ammo/Ammo_Rocket_M26_Spall.et" {
+ {
+  coords 5601.25 211.109 7101.13
+ }
+ {
+  coords 8678.833 114.333 2945.17
+ }
+}
+GenericEntity : "{1B97EF105D575F95}Prefabs/Weapons/Warheads/Warhead_HEAT_M77.et" {
+ coords 8677.067 114.588 2945.84
+}
+GenericEntity : "{1BBBF9966B5536EF}Prefabs/Weapons/Warheads/Warhead_HE_M31.et" {
+ coords 8684.896 113.454 2939.252
+}
+$grp Turret : "{2AC9C45DCCF3F08B}Prefabs/Vehicles/Tracked/M270/VehParts/Turret/M270_Turret.et" {
+ {
+  coords 8718.992 110.576 2947.796
+ }
+ {
+  coords 4779.449 27.854 11080.854
+ }
+}
+$grp GenericEntity : "{2EE77FA6C9097717}Prefabs/Weapons/Warheads/Warhead_Mine_M15AT.et" {
+ {
+  coords 8686.859 113.158 2936.971
+ }
+ {
+  coords 8676.898 114.639 2944.991
+ }
+}
+Projectile : "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" {
+ coords 8691.734 112.502 2943.24
+}
+$grp GenericEntity : "{5686140B1C5316A1}Prefabs/Weapons/Magazines/Pod_M31_MLRS_12rnd_Base.et" {
+ {
+  coords 8692.124 112.297 2927.909
+ }
+ {
+  coords 4764.681 27.854 11069.697
+ }
+}
+$grp GenericEntity : "{6F1EDE4CF669BAC7}Prefabs/Weapons/HeavyWeapons/Launcher_MLRS.et" {
+ {
+  coords 8710.916 109.994 2928.03
+ }
+ {
+  coords 4787 27.854 11080.198
+ }
+}
+$grp Projectile : "{A9523FAB442BD262}Prefabs/Weapons/Ammo/Ammo_Rocket_M26.et" {
+ {
+  coords 8816.78 95.106 2766.477
+ }
+ {
+  coords 8695.374 112.069 2942.877
+ }
+ {
+  coords 4773.871 27.854 11071.901
+ }
+}
+GenericEntity : "{B31929F65F0D0279}Prefabs/Weapons/Rifles/M14/Rifle_M21.et" {
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{15873F899F4C16B3}Prefabs/Weapons/Magazines/Pod_M26_MLRS_12rnd_Base.et"
+    }
+   }
+  }
+ }
+ coords 8729.713 109.069 2930.802
+}
+Projectile : "{CB91EC4DB1C4CF6B}Prefabs/Weapons/Ammo/Ammo_Rocket_M26_Smoke.et" {
+ coords 4774.234 27.854 11066.49
+}
+Tank M270_base1 : "{D10BEDD1B78E43B5}Prefabs/Vehicles/Tracked/M270/M270_base.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 11431.4
+  }
+ }
+ coords 4772.257 27.854 11077.474
+ angleY -180
+}
+$grp Projectile : "{E36C721BC5E5B426}Prefabs/Weapons/Ammo/Ammo_Rocket_M31.et" {
+ {
+  coords 8690.466 112.66 2941.487
+ }
+ {
+  coords 4775.788 27.854 11071.827
+ }
+}

@@ -1,0 +1,20 @@
+GenericEntity : "{6F1EDE4CF669BAC7}Prefabs/Weapons/HeavyWeapons/Launcher_MLRS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{5E0439E0B039893F}" {
+     SourceMaterial "m270_launcher"
+     AssignedMaterial "{CA8B9C8F8B46BB2B}Assets/Vehicles/Tracked/M270/Data/Tan/m270_launcher_Tan.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{5DF62448A984F238}" {
+     MagazineTemplate "{8FF8E9B943933B2C}Prefabs/Weapons/Magazines/Pod_M31_MLRS_12rnd_Tan.et"
+    }
+   }
+  }
+ }
+}

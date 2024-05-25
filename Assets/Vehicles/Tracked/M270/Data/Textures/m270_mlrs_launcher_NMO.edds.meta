@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1DE4C1DA028020DF}Assets/Vehicles/Tracked/M270/Data/Textures/m270_mlrs_launcher_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

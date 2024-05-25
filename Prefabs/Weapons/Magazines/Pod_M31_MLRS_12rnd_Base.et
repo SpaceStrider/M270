@@ -1,0 +1,21 @@
+GenericEntity : "{15873F899F4C16B3}Prefabs/Weapons/Magazines/Pod_M26_MLRS_12rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "M31 MLRS Magazine"
+     Description "HE 200 lbs Munition"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "HE"
+   }
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+ }
+}

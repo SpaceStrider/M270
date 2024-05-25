@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BA96CBEA4001E226}Assets/Vehicles/Tracked/M270/Data/Textures/m270_mlrs_launcher_GLOBAL_MASK.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

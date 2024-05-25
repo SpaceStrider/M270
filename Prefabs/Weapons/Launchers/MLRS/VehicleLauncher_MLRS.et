@@ -1,0 +1,128 @@
+GenericEntity : "{D14EC0B3BFCE1A8D}Prefabs/Weapons/Core/VehicleLauncher_Base_01.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{DD6D5781DB191359}Sounds/Weapons/Launchers/RPG7/Weapons_Launchers_MLRS_Shot.acp" "{B359BCB5C00F9FFC}Sounds/Weapons/Launchers/RPG7/Weapons_Launchers_RPG7_Handling.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{CE7C5BE7A5B34AD2}Assets/Weapons/HeavyWeapons/M270MLRS/m270_mlrs.xob"
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{5E5833608CBE399E}" {
+     components {
+      CaseEjectingEffectComponent "{5E58B4534C658B62}" {
+       EffectPosition EntitySlotInfo Muzzle {
+        PivotID "w_chamber_01"
+        Offset 0 0 2.0318
+       }
+      }
+      SCR_MuzzleEffectComponent "{5E5833608CBE3998}" {
+       ParticleEffect "{679440F5F729775A}Particles/Weapon/Muzzle_MLRS.ptc"
+       EffectPosition EntitySlotInfo Muzzle {
+        PivotID ""
+        Offset 0 0.6355 -0.2708
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{5E5833606476A7F9}" {
+       PivotID "w_chamber_01"
+      }
+      PointInfo "{5DF64524A737A689}" {
+       PivotID "w_chamber_02"
+      }
+      PointInfo "{5DF64524A633A344}" {
+       PivotID "w_chamber_03"
+      }
+      PointInfo "{5DF64524A5DD5FF2}" {
+       PivotID "w_chamber_04"
+      }
+      PointInfo "{5DF64524A4F32C29}" {
+       PivotID "w_chamber_05"
+      }
+      PointInfo "{5DF64524ABFA341C}" {
+       PivotID "w_chamber_06"
+      }
+      PointInfo "{5DF64524AAC264E5}" {
+       PivotID "w_chamber_07"
+      }
+      PointInfo "{5DF64524A99424FE}" {
+       PivotID "w_chamber_08"
+      }
+      PointInfo "{5DF64524A8E8100E}" {
+       PivotID "w_chamber_09"
+      }
+      PointInfo "{5DF64524AF21FD9F}" {
+       PivotID "w_chamber_10"
+      }
+      PointInfo "{5DF64524AE1AAF0A}" {
+       PivotID "w_chamber_11"
+      }
+      PointInfo "{5DF64524AD2B59DA}" {
+       PivotID "w_chamber_12"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{5E5833606B7819A8}" {
+       PivotID "w_chamber_01"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF6452486820A3F}" {
+       PivotID "w_chamber_02"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF64524859C36B7}" {
+       PivotID "w_chamber_03"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF6452484FD5C36}" {
+       PivotID "w_chamber_04"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248B351DFF}" {
+       PivotID "w_chamber_05"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248A7A5ED5}" {
+       PivotID "w_chamber_06"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248AB0DF93}" {
+       PivotID "w_chamber_07"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248854AFDA}" {
+       PivotID "w_chamber_08"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248F3D2DB6}" {
+       PivotID "w_chamber_09"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248E1069E8}" {
+       PivotID "w_chamber_10"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248D0F3735}" {
+       PivotID "w_chamber_11"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248C057743}" {
+       PivotID "w_chamber_12"
+       Offset 0 0 2.3
+      }
+     }
+     MagazineWell MagazineWellMLRS "{5E6C485AF419D7CF}" {
+     }
+     MagazinePosition InventoryStorageSlot Mag {
+      PivotID ""
+     }
+     MagazineTemplate "{15873F899F4C16B3}Prefabs/Weapons/Magazines/Pod_M26_MLRS_12rnd_Base.et"
+    }
+   }
+  }
+ }
+}

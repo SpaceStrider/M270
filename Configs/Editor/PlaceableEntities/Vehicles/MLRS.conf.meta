@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2F59F43C9B442FD1}Configs/Editor/PlaceableEntities/Vehicles/MLRS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

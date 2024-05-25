@@ -1,0 +1,19 @@
+GenericEntity : "{15873F899F4C16B3}Prefabs/Weapons/Magazines/Pod_M26_MLRS_12rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{5DFE343DEFD53E30}" {
+    }
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Materials {
+    MaterialAssignClass "{5E0436DEF750697A}" {
+     SourceMaterial "mlrs_rocket_pods"
+     AssignedMaterial "{E7554F36EB9331F9}Assets/Weapons/Magazines/MLRS/Data/mlrs_rocket_pods_Tan.emat"
+    }
+   }
+  }
+ }
+}

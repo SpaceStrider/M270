@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{4D006F78519F84D8}Assets/Vehicles/Tracked/M270/Data/Textures/m270_hull_VFX.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "1024"
+  }
+ }
+}

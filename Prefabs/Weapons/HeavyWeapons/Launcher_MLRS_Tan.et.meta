@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3729B69EE1C02F64}Prefabs/Weapons/HeavyWeapons/Launcher_MLRS_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

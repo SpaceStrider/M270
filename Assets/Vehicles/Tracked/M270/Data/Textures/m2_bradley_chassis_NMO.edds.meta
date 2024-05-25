@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{05BBFCE9639D2CE0}Assets/Vehicles/Tracked/M270/Data/Textures/m2_bradley_chassis_NMO.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

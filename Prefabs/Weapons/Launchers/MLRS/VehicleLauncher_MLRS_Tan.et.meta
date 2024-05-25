@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{050D6C7750330C62}Prefabs/Weapons/Launchers/9M113/VehicleLauncher_MLRS_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

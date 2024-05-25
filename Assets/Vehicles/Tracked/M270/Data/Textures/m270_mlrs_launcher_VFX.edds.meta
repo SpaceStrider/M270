@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6D96C4725EE491B3}Assets/Vehicles/Tracked/M270/Data/Textures/m270_mlrs_launcher_VFX.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,214 @@
+GenericEntity : "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{DD6D5781DB191359}Sounds/Weapons/Launchers/RPG7/Weapons_Launchers_MLRS_Shot.acp" "{B359BCB5C00F9FFC}Sounds/Weapons/Launchers/RPG7/Weapons_Launchers_RPG7_Handling.acp"
+   }
+   IncludeInactive 1
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{CE7C5BE7A5B34AD2}Assets/Weapons/HeavyWeapons/M270MLRS/m270_mlrs.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    m_bDraggable 0
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5DF6512CCD06EC78}" {
+     AttachmentSlot InventoryStorageSlot gun {
+      PivotID "slot_optics"
+      ChildPivotID "snap_weapon"
+      Enabled 0
+     }
+    }
+    MuzzleComponent "{5DF62448A984F238}" {
+     components {
+      CaseEjectingEffectComponent "{60564EF78F64836B}" {
+       ParticleEffect "{EF06660D8B900D54}Particles/Weapons/Smoke_Cannon_Down_Emmiter.ptc"
+       EffectPosition EntitySlotInfo Muzzle {
+        Offset 0 0.6784 -0.4026
+        Angles 180 -180 0
+       }
+      }
+      SCR_MuzzleEffectComponent "{5DF62448B7FDEB6F}" {
+       ParticleEffect "{679440F5F729775A}Particles/Weapon/Muzzle_MLRS.ptc"
+       EffectPosition EntitySlotInfo Muzzle {
+        PivotID "w_chamber_07"
+        Offset 0 0 -2.4849
+        Angles 0 180 0
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{5DF64524C3BE5C04}" {
+       PivotID "w_chamber_01"
+      }
+      PointInfo "{5DF64524A737A689}" {
+       PivotID "w_chamber_02"
+      }
+      PointInfo "{5DF64524A633A344}" {
+       PivotID "w_chamber_03"
+      }
+      PointInfo "{5DF64524A5DD5FF2}" {
+       PivotID "w_chamber_04"
+      }
+      PointInfo "{5DF64524A4F32C29}" {
+       PivotID "w_chamber_05"
+      }
+      PointInfo "{5DF64524ABFA341C}" {
+       PivotID "w_chamber_06"
+      }
+      PointInfo "{5DF64524AAC264E5}" {
+       PivotID "w_chamber_07"
+      }
+      PointInfo "{5DF64524A99424FE}" {
+       PivotID "w_chamber_08"
+      }
+      PointInfo "{5DF64524A8E8100E}" {
+       PivotID "w_chamber_09"
+      }
+      PointInfo "{5DF64524AF21FD9F}" {
+       PivotID "w_chamber_10"
+      }
+      PointInfo "{5DF64524AE1AAF0A}" {
+       PivotID "w_chamber_11"
+      }
+      PointInfo "{5DF64524AD2B59DA}" {
+       PivotID "w_chamber_12"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{5DF64524C2A9A3FC}" {
+       PivotID "w_chamber_01"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF6452486820A3F}" {
+       PivotID "w_chamber_02"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF64524859C36B7}" {
+       PivotID "w_chamber_03"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF6452484FD5C36}" {
+       PivotID "w_chamber_04"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248B351DFF}" {
+       PivotID "w_chamber_05"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248A7A5ED5}" {
+       PivotID "w_chamber_06"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248AB0DF93}" {
+       PivotID "w_chamber_07"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248854AFDA}" {
+       PivotID "w_chamber_08"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248F3D2DB6}" {
+       PivotID "w_chamber_09"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248E1069E8}" {
+       PivotID "w_chamber_10"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248D0F3735}" {
+       PivotID "w_chamber_11"
+       Offset 0 0 2.3
+      }
+      PointInfo "{5DF645248C057743}" {
+       PivotID "w_chamber_12"
+       Offset 0 0 2.3
+      }
+     }
+     FireModes {
+      BaseFireMode "{5DF64524F764172E}" {
+       MaxBurst -1
+       MaxSalvo 1
+       RoundsPerMinute 100
+      }
+      BaseFireMode "{5DF64524F7D943DD}" {
+       MaxBurst 0
+       MaxSalvo 0
+       RoundsPerMinute 0
+       UIName "Safe"
+      }
+     }
+     MagazineWell MagazineWellMLRS "{5DF64525CCFEF712}" {
+     }
+     DispersionRange 100
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{5DF64525DEE945AC}" {
+       Name "SWAY"
+       "Linear Damping" 0.85 0.5 0.825
+       "Linear Magnitude" 1
+       "Angular Damping" 0.95 0.3 0.4
+       "Angular Magnitude" 1
+       "ADS Multiplier" 0.3
+       "Focus Multiplier" 0.2
+       "Stamina Magnitude Curve" {
+        0 1 0.491 0.961 0.722 0.867 0.828 0.727 0.947 0.518 1 0.087
+       }
+       "Stamina Scale Mins" 0.4 0.5 0
+       "Stamina Scale Maxs" 1.4 1.4 0
+       "Linear Inertia Magnitude" 0.0015 0.02 0
+       "Angular Inertia Magnitude" 5 4 14
+       "Angular Inertia Magnitude ADS" 4 2 12
+       "Linear Inertia Decay Speed" 10
+       "Angular Inertia Decay Speed" 12
+       DamageToSway 2
+       OneHandMultiplier 2
+       ObstructionChangeSpeed 5
+       IkObstructionAngularScale 0.01
+       IkObstructionLinearScale 0.01
+       IkObstructionLinearOffset 0 1 0
+       IkObstructionAngularOffset 0 0 0
+      }
+      OnHitAimModifier "{5DF64525A41C483D}" {
+       IsEnabled 0
+      }
+      RecoilWeaponAimModifier "{5DF64525AC9025CA}" {
+       LinearData RecoilData "{5902CABACF883276}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{5DF64525868E49EE}" {
+      m_bShowCaliber 1
+      m_sCaliber "227mm"
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{5DF645258E953068}" {
+      }
+     }
+     ReloadDuration 1
+     AllowWeaponDeployment 0
+     MagazinePosition InventoryStorageSlot Mag {
+     }
+     MagazineTemplate "{5686140B1C5316A1}Prefabs/Weapons/Magazines/Pod_M31_MLRS_12rnd_Base.et"
+    }
+   }
+  }
+ }
+}

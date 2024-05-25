@@ -1,0 +1,39 @@
+MatPBRMulti {
+ GlobalMCRMap "{D957F0D9A909E29F}Assets/Vehicles/Tracked/M270/Data/Textures/m270_mlrs_launcher_MCR.edds"
+ MaskMap "{BA96CBEA4001E226}Assets/Vehicles/Tracked/M270/Data/Textures/m270_mlrs_launcher_GLOBAL_MASK.edds"
+ VFXMap "{6D96C4725EE491B3}Assets/Vehicles/Tracked/M270/Data/Textures/m270_mlrs_launcher_VFX.edds"
+ GlobalNMOMap "{1DE4C1DA028020DF}Assets/Vehicles/Tracked/M270/Data/Textures/m270_mlrs_launcher_NMO.edds"
+ DirtOpacity 0.337
+ DirtLayerSharpness 2.271
+ DirtColor 0.078 0.071 0.064 1
+ DirtRoughness 1
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{C9664A554B37B2B2}Assets/_SharedData/DetailMask/ST_Damage_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5E041A2A8261A43D}" {
+  TilingU 8
+  TilingV 8
+ }
+ Enabled_2 1
+ Color_2 0.089 0.105 0.082 1
+ BCR_2 "{8A0C885766CAD60D}Assets/_SharedData/Metal/ST_Rust_01_Aluminium_V2_BCR.edds"
+ NMO_2 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ MaskSharpness_2 6
+ Mask_2 "{490DFFF4475F7EC7}Assets/_SharedData/DetailMask/ST_Dirt_09_Mask1.edds"
+ MaskUVScale_2 4
+ UVTransform_2 MatUVTransform "{5E041A2AF5885D4C}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_2 0.2
+ Metalness_2 0
+ Color_1 0.456 0.456 0.456 1
+ BCR_1 "{8A0C885766CAD60D}Assets/_SharedData/Metal/ST_Rust_01_Aluminium_V2_BCR.edds"
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{5E041A2AD2B285F7}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_1 0.3
+ Roughness_1 1.035
+ Metalness_1 0
+}
